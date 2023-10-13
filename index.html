@@ -4,107 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BootcampJS | Modulo 01</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <img
-        src="./assets/icons/icon-menu-burguer.svg"
-        alt="Menu Burguer"
-        class="navbar_icons__menu"
-      />
-      <article class="navbar_text">
-        <p class="navbar_text__items">MODA MUJER</p>
-        <p class="navbar_text__items">MODA HOMBRE</p>
-        <p class="navbar_text__items">NUEVA COLECCIÓN</p>
-        <p class="navbar_text__items">COLECCIONES ESPECIALES</p>
-      </article>
-      <article class="navbar_icons">
+      <div class="navbar_container">
         <img
-          src="assets/icons/icon-user.svg"
-          alt=""
-          class="navbar_icons__user"
+          src="./assets/icons/icon-menu-burguer.svg"
+          alt="Menu Burguer"
+          class="navbar_icons__menu"
         />
-        <img
-          src="assets/icons/icon-heart.svg"
-          alt=""
-          class="navbar_icons__heart"
-        />
-        <img
-          src="assets/icons/icon-shopping-cart.svg"
-          alt=""
-          class="navbar_icons__cart"
-        />
-      </article>
+        <article class="navbar_text">
+          <p class="navbar_text__items">MODA MUJER</p>
+          <p class="navbar_text__items">MODA HOMBRE</p>
+          <p class="navbar_text__items">NUEVA COLECCIÓN</p>
+          <p class="navbar_text__items">COLECCIONES ESPECIALES</p>
+        </article>
+        <article class="navbar_icons">
+          <img
+            src="assets/icons/icon-user.svg"
+            alt=""
+            class="navbar_icons__user"
+          />
+          <img
+            src="assets/icons/icon-heart.svg"
+            alt=""
+            class="navbar_icons__heart"
+          />
+          <img
+            src="assets/icons/icon-shopping-cart.svg"
+            alt=""
+            class="navbar_icons__cart"
+          />
+        </article>
+      </div>
     </nav>
     <!-- Navbar END-->
     <!-- Section -->
     <section class="container">
-      <h1>Nuevas colecciones</h1>
-      <article class="card">
-        <img src="assets/img/image-1.jpg" alt="Vestido" class="card_image" />
-        <p class="card_product">Vestido</p>
-        <p class="card_price">34.99 €</p>
-      </article>
-      <article class="card">
-        <img src="assets/img/image-1.jpg" alt="Vestido" class="card_image" />
-        <p class="card_product">Camisa</p>
-        <p class="card_price">44.99 €</p>
-      </article>
-      <article class="card">
-        <img src="assets/img/image-1.jpg" alt="Vestido" class="card_image" />
-        <p class="card_product">Vaqueros</p>
-        <p class="card_price">79.99 €</p>
-      </article>
-      <article class="card">
-        <img src="assets/img/image-1.jpg" alt="Vestido" class="card_image" />
-        <p class="card_product">Polo</p>
-        <p class="card_price">44.95 €</p>
-      </article>
-      <article class="card">
-        <img src="assets/img/image-1.jpg" alt="Vestido" class="card_image" />
-        <p class="card_product">Camisa</p>
-        <p class="card_price">25.00 €</p>
-      </article>
-      <article class="card">
-        <img src="assets/img/image-1.jpg" alt="Vestido" class="card_image" />
-        <p class="card_product">Camiseta</p>
-        <p class="card_price">22.99 €</p>
-      </article>
+      <h1 class="container_title">Nuevas colecciones</h1>
+      <div class="container_cards">
+        <article class="container_cards__item">
+          <img
+            src="assets/img/image-3.jpg"
+            alt="Vestido"
+            class="container_cards__item_image"
+          />
+          <p class="container_cards__item_product">Vestido</p>
+          <p class="container_cards__item_price">34.99 €</p>
+        </article>
+        <article class="container_cards__item">
+          <img
+            src="assets/img/image-6.jpg"
+            alt="Vestido"
+            class="container_cards__item_image"
+          />
+          <p class="container_cards__item_product">Camisa</p>
+          <p class="container_cards__item_price">44.99 €</p>
+        </article>
+        <article class="container_cards__item">
+          <img
+            src="assets/img/image-4.jpg"
+            alt="Vestido"
+            class="container_cards__item_image"
+          />
+          <p class="container_cards__item_product">Vaqueros</p>
+          <p class="container_cards__item_price">79.99 €</p>
+        </article>
+        <article class="container_cards__item">
+          <img
+            src="assets/img/image-5.jpg"
+            alt="Vestido"
+            class="container_cards__item_image"
+          />
+          <p class="container_cards__item_product">Polo</p>
+          <p class="container_cards__item_price">44.95 €</p>
+        </article>
+        <article class="container_cards__item">
+          <img
+            src="assets/img/image-1.jpg"
+            alt="Vestido"
+            class="container_cards__item_image"
+          />
+          <p class="container_cards__item_product">Camisa</p>
+          <p class="container_cards__item_price">25.00 €</p>
+        </article>
+        <article class="container_cards__item">
+          <img
+            src="assets/img/image-2.jpg"
+            alt="Vestido"
+            class="container_cards__item_image"
+          />
+          <p class="container_cards__item_product">Camiseta</p>
+          <p class="container_cards__item_price">22.99 €</p>
+        </article>
+      </div>
     </section>
     <!-- Section END-->
     <!-- Footer -->
-    <footer>
-      <article class="footer_item">
-        <img
-          src="assets/icons/icon-truck.svg"
-          alt="Entrega"
-          class="footer_icons__truck"
-        />
-        <p class="footer_text">Entrega</p>
-      </article>
-      <article class="footer_item">
-        <p class="footer_text">Devoluciones y cambios</p>
-      </article>
-      <article class="footer_item">
-        <img
-          src="assets/icons/icon-phone.svg"
-          alt="Teléfono"
-          class="footer_icons__phone"
-        />
-        <a href="tel:+375(29)749-18-23" class="footer-link"
-          >+375 (29) 749-18-23</a
-        >
-      </article>
-      <article class="footer_item">
-        <img
-          src="assets/icons/icon-mail.svg"
-          alt="Teléfono"
-          class="footer_icons__email"
-        />
-        <a href="mailto:shop@omix.com" class="footer-link">shop@omix.com</a>
-      </article>
+    <footer class="footer">
+      <div class="footer_container">
+        <article class="footer_item">
+          <div class="footer_icons">
+            <img src="assets/icons/icon-truck.svg" alt="Entrega" />
+          </div>
+          <a href="#entrega" class="footer-link">Entrega</a>
+        </article>
+        <article class="footer_item">
+          <a href="#devoluciones" class="footer-link">Devoluciones y cambios</a>
+        </article>
+        <article class="footer_item">
+          <div class="footer_icons">
+            <img src="assets/icons/icon-phone.svg" alt="Teléfono" />
+          </div>
+          <a href="tel:+375(29)749-18-23" class="footer-link"
+            >+375 (29) 749-18-23</a
+          >
+        </article>
+        <article class="footer_item">
+          <div class="footer_icons">
+            <img src="assets/icons/icon-mail.svg" alt="Email" />
+          </div>
+          <a href="mailto:shop@omix.com" class="footer-link">shop@omix.com</a>
+        </article>
+      </div>
     </footer>
     <!-- Footer END-->
   </body>
