@@ -42,6 +42,10 @@ h1 {
   font-weight: 700;
 }
 
+p {
+  font-size: 14px;
+}
+
 a {
   text-decoration: none;
   color: var(--primary-color);

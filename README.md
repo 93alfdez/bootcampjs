@@ -5,3 +5,5 @@ Para este laboratorio he utilizado tanto flexbox como grid, dependiendo de la se
 En el nav y en el footer por ejemplo, he utilizado flexbox para poder ordenar más fácilmente los items.
 
 En cuanto a la sección de los productos he utilizado primero grid y luego flex. Los items de los productos tienen creada una plantilla en grid para ordenarlos rápidamente.
+
+He metido ´´´:hover´´´ en las imágenes y en los links.
